@@ -1,0 +1,24 @@
+{
+  "version": "0.0.1",
+  "description": "Web Design Course Thing",
+  "license": "MIT",
+  "name": "WDCT",
+  "author": {
+    "name": "Ennis Massey",
+    "email": "ennisbaradine@gmail.com"
+  },
+  "dependencies": {
+    "@angular/common": ">=2.3.0",
+    "@angular/compiler": ">=2.3.0",
+    "@angular/core": ">=2.3.0",
+    "@angular/forms": ">=2.3.0",
+    "@angular/http": ">=2.3.0",
+    "@angular/platform-browser": ">=2.3.0",
+    "@angular/platform-browser-dynamic": ">=2.3.0",
+    "@angular/router": ">=2.3.0",
+    "rxjs": "^5.0.1",
+    "zone.js": "^0.8.4",
+    "ts-helpers": "^1.1.1",
+    "typescript": ">=1.8.0"
+  }
+}
