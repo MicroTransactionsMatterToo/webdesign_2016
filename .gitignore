@@ -404,3 +404,5 @@ jspm_packages
 .yarn-integrity
 
 
+src/app/*.js*
+src/main.js*
