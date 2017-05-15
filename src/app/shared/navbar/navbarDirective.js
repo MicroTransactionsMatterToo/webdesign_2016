@@ -18,7 +18,8 @@ let Navbar = class Navbar {
 Navbar = __decorate([
     core_1.Component({
         selector: 'app-nav',
-        templateUrl: 'navbarView.html'
+        templateUrl: './navbarView.html',
+        styleUrls: ['assets/css/navbar.css']
     })
 ], Navbar);
 exports.Navbar = Navbar;
@@ -26,7 +27,8 @@ let NavbarItem = class NavbarItem {
 };
 NavbarItem = __decorate([
     core_1.Component({
-        selector: 'app-nav__item'
+        selector: 'app-nav__item',
+        templateUrl: './navbarItem.html'
     })
 ], NavbarItem);
 exports.NavbarItem = NavbarItem;
@@ -34,7 +36,8 @@ let NavbarItemEntry = class NavbarItemEntry {
 };
 NavbarItemEntry = __decorate([
     core_1.Component({
-        selector: 'app-nave__item--entry'
+        selector: 'app-nav__item--entry',
+        templateUrl: './navbarItemEntry.html'
     })
 ], NavbarItemEntry);
 exports.NavbarItemEntry = NavbarItemEntry;
