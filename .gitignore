@@ -403,6 +403,7 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
-
-src/app/*.js*
+src/app/shared/*/*.js*
+src/app/*/*/*.js*
+src/app/*js*
 src/main.js*
